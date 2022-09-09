@@ -1,0 +1,154 @@
+html{
+    background-color:#F2F4F7;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    background-color: #F2F4F7;
+
+}
+.boxes{
+ width: 360px;
+   position: absolute;
+}
+.box1{
+box-shadow: 0px 16px 48px rgb(0 0 0 / 16%);
+opacity: 1;
+margin-bottom: 10px;
+position: relative;
+width:100%;
+background-color: white;
+border-radius: 16px;
+}
+.title{
+    display:flex;
+    flex-direction: row;
+    padding: 5%;
+  width: 100%;
+
+}
+.img{
+    width:15%;
+    height:15%;
+    border-radius: 55%;
+}
+.text{
+    font-size:1.7rem;
+    text-decoration: none;
+    color: black;
+    padding-left:5px;
+    font-weight: 600;
+    padding-top: 10px;
+   
+
+}
+.items{
+border-top: 1px solid black;
+padding:10px;
+
+}
+.icon{
+    display:flex;
+color: darkgrey;
+}
+
+.index1{
+    width:50%;
+    font-size: 1rem;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.copy{
+    position: absolute;
+    padding-left:80%;
+   margin-top:-50px;
+}
+
+.box2{
+    box-shadow: 0px 16px 48px rgb(0 0 0 / 16%);
+    opacity: 1;
+    border-radius: 16px;
+    margin-top: 20px;
+    position: relative;
+    background-color: white;
+}
+.title2{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    
+}
+.img2{
+    padding:1px;
+    width:22%;
+    height:22%;
+    border-radius: 55%;
+}
+.title-container{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.text2{
+    font-size:1.3rem;
+    text-decoration: none;
+    color: black;
+    padding-top:5px;
+   
+    font-weight: 600;
+}
+.sub{
+    color: rgb(142, 142, 142);
+    text-decoration: none;
+ 
+}
+.boxes2{
+    position: relative;
+    
+}
+.items2{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+}
+.title3{
+    text-decoration:none;
+    color:rgb(128, 127, 127);
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.index2{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.side-text1{
+    position: absolute;
+    margin-left:60%;
+    margin-top:5px;
+    width:110px;
+    padding-left: 8px;
+    height:28px;
+    color:#027A48;
+    border-radius: 16px;
+    background:#b1e9c8 0% 0% no-repeat padding-box;
+}
+.side-text2{
+    position: absolute;
+    margin-left:60%;
+    margin-top:5px;
+    width:110px;
+    padding-left: 8px;
+    height:28px;
+    color:#B42318;
+    border-radius: 16px;
+    background:#e9927e 0% 0% no-repeat padding-box;
+}
